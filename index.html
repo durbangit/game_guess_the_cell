@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>⊗jsPrStGGC Игра угадай ячейку</title>
+</head>
+<body>
+   
+   <div class="wrapper">
+
+      <header class="header">
+         <div class="container">
+            <div class="header__row">
+               <h1 class="header__title title">⊗jsPrStGGC Игра угадай ячейку</h1>
+            </div>
+         </div>
+      </header>
+
+      <div class="content">
+         <div class="container">
+            <div class="content__wrap">
+
+               <div class="cell">
+                  <h2 class="cell__title title">Игра: Угадай ячейку</h2>
+
+                  <div class="cell__body">
+                     <div class="cell__rules">
+                        <p>В этой игре будет дана таблица 10 на 10.</p>
+   
+                        <p>Компьютер случайным образом запоминает 10 ячеек из этой таблицы.</p>
+   
+                        <p>Игроку нужно кликать на клетки пока он не найдет все загаданные компьютером ячейки.</p>
+                        <p>Угаданная ячейка окрасится в зеленый цвет, не угаданная, в красный.</p>
+
+                        <p>Так же, имеется таймер обратного отсчета.</p>
+   
+                        <p>Если, игрок успеет угадать числа за отведенное время, то Вы выиграли, иначе игрок проиграет.</p>
+                     </div>
+
+                     <div class="cell__game">
+                        <button class="cell__start" type="button">Начать игру</button>
+                        <p class="cell__info">Хотите сыграть? Нажмите кнопку "Начать игру"</p>
+                        <p class="cell__count">Осталось угодать ячейки:&ensp;<span></span></p>
+                        <div class="cell__timer">00:00</div>
+   
+                        <div class="cell__table"></div>
+   
+                        <button class="cell__restart" type="button">Начать игру занова</button>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+         
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__row">
+               <h2 class="footer__title title">⊗jsPrStGGC Игра угадай ячейку</h2>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+   <script src="./js/main.js"></script>
+</body>
+</html>
