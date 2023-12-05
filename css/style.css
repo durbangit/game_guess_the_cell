@@ -35,6 +35,10 @@ body {
 .title {
    font-size: 24px;
 }
+.header__title,
+.footer__title {
+   text-align: center;
+}
 .content {
    flex-grow: 1;
    padding: 20px 0;
